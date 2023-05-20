@@ -53,6 +53,9 @@ body {
         color: #2E2F42;
 }
 
+.header {
+        height: 72px;
+}
 .header-logo {
         font-family: 'Raleway', sans-serif;
             font-style: normal;
@@ -67,8 +70,8 @@ body {
 
 .header-list {
         display: flex;
-        align-items: center;
         gap: 40px;
+
 }
 
 .header-nav {
@@ -79,8 +82,10 @@ body {
 
 .header-container {
         display: flex;
-        align-items: center;
+      
 }
+
+
 .header-link {
         
         font-weight: 500;
@@ -103,7 +108,6 @@ body {
 
 .address-list {
         display: flex;
-        align-items: center;
         gap: 40px;
         
 }
@@ -122,6 +126,7 @@ body {
 
 .hero {
     background: #2E2F42;
+height: 600px;
 }
 .hero-container {
         display: flex;
@@ -157,6 +162,14 @@ body {
 .hero-button:focus {
         background-color: #404BBF;
 }
+
+
+.services {
+        height: 344px;
+}
+
+
+
 .services-title {
    
         font-weight: 500;
@@ -178,6 +191,10 @@ body {
         letter-spacing: 0.02em;
         color: #434455;
 }
+
+.features {
+        height: 532px;
+}
 .features-title {
    
         font-weight: 700;
@@ -197,8 +214,8 @@ body {
 
 .team {
         background-color: #F4F4FD
-
 }
+
 
 .team-item {
         background-color: #FFFFFF
@@ -219,9 +236,7 @@ body {
 .team-list {
         display: flex;
         gap:24px;
-
 }
-
 
 .team-member {
     
