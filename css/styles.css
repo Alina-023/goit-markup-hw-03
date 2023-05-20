@@ -16,7 +16,7 @@ list-style: none;
 /*------------INDEX----------*/
 
 .container {
-        width: 1128px;
+        width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -36,14 +36,14 @@ img {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background: var(--bg-color);
+        font-family: 'Roboto', sans-serif;
+        color: #434455;
+        background: var(--bg-color);
     
 }
 
 .span { 
-    font-family: 'Raleway', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -55,23 +55,25 @@ body {
 
 .header {
         height: 72px;
-        width: 1158px;
+        border-bottom: 1px solid #e7e9fc;
+       
 }
 .header-logo {
         font-family: 'Raleway', sans-serif;
-            font-style: normal;
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #4D5AE5;
-            margin-right: 76px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        margin-right: 76px;
 }
 
 .header-list {
         display: flex;
         gap: 40px;
+        padding: 24px 0;
 
 }
 
@@ -103,8 +105,9 @@ body {
 }
 
 .address {
-    font-style: normal;
-    margin-left: auto;
+        font-style: normal;
+        margin-left: auto;
+        padding: 24px 0;
 }
 
 .address-list {
@@ -135,7 +138,7 @@ height: 600px;
         align-items:center;
 }
 .hero-title {
-    
+        max-width: 496px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -143,6 +146,7 @@ height: 600px;
         letter-spacing: 0.02em;
         color: #FFFFFF;
         width: 496px;
+        padding-top: 188px;
         
 }
 .hero-button {
@@ -157,6 +161,9 @@ height: 600px;
         background: #4D5AE5;
         cursor: pointer;
         border-radius: 4px;
+        margin-top: 48px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border: none;
         
 }
 .hero-button:hover,
@@ -167,9 +174,8 @@ height: 600px;
 
 .services {
         height: 344px;
+        padding: 120px 0;
 }
-
-
 
 .services-title {
    
@@ -178,6 +184,7 @@ height: 600px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-color);
+        margin-bottom: 8px
 }
 
 .services-list {
@@ -193,8 +200,12 @@ height: 600px;
         color: #434455;
 }
 
+
+/*-------------------------SECTION-THREE-----------------*/
+
 .features {
         height: 532px;
+        padding-bottom: 120px
 }
 .features-title {
    
