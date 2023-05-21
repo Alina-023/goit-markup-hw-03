@@ -176,7 +176,7 @@ body {
 
 
 .services {
-        height: 344px;
+       
         padding: 120px 0;
 }
 
@@ -187,7 +187,6 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-color);
-        margin-bottom: 8px;
         position: absolute;
         width: 1px;
         height: 1px;
@@ -200,6 +199,10 @@ body {
         overflow: hidden;
                 }
 
+.services-title {
+
+        margin-bottom: 8px;
+}
 .services-list {
         display: flex;
         gap: 24px;
