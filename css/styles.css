@@ -364,8 +364,11 @@ body {
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #4D5AE5;
-        background-color: var(--bg-btn-color);
         border: 1px solid var(--portfolio-btn-border-color);
+        background-color: var(--bg-btn-color);
+        cursor: pointer;
+        border-radius: 4px;
+        padding: 12px 24px;
 }
 
 .portfolio-btn:hover,
@@ -374,12 +377,6 @@ body {
         color: #FFFFFF;
         background-color: #404BBF;
         border: 1px solid transparent;
-}
-.portfolio-btn {
-        cursor: pointer;
-        border-radius: 4px;
-        border: none;
-        padding: 12px 24px;
 }
 
 .portfolio-list {
