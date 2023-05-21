@@ -11,7 +11,7 @@ list-style: none;
 --link-color: #2e2f42;
 --title-color: #2e2f42;
 --bg-btn-color: #F4F4FD;
-
+--portfolio-btn-border-color: #e7e9fc;
 }
 /*------------INDEX----------*/
 
@@ -68,20 +68,17 @@ body {
         text-transform: uppercase;
         color: #4D5AE5;
         margin-right: 76px;
-       
+        padding: 24px 0;
 }
 
 .header-list {
         display: flex;
-        gap: 40px;
-        
-
+        gap: 40px; 
 }
 
 .header-nav {
         display: flex;
-        align-items: center;
-        padding: 24px 0;
+        align-items: center;     
 
 }
 
@@ -232,16 +229,16 @@ body {
 
 /*-----------------------------SECTION-FOUR--------------------*/
 .team {
+       
+        padding: 120px 0;
         background-color: #F4F4FD
 }
 
 
 .team-item {
+        width: calc (100% - 72px) / 4;
         background-color: #FFFFFF
-
-}
-.container-team {
-        padding: 120px 0;
+        
 }
 
 .member-text {
@@ -272,12 +269,14 @@ body {
 }
 
 .team-member {
-    
+        
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-color);
+        text-align: center;
+        margin-bottom: 8px;
 
 }
 .team-text {
@@ -338,7 +337,12 @@ padding: 100px 0;
 
 /*------------PORTFOLIO-------------*/
 
+
+.portfolio {
+        padding: 96px 0 120px;
+}
 /*BUTTONS*/
+
 .portfolio-btn {
         font-family: "Roboto", sans-serif;
         font-weight: 500;
@@ -347,6 +351,7 @@ padding: 100px 0;
         letter-spacing: 0.04em;
         color: #4D5AE5;
         background-color: var(--bg-btn-color);
+        border: 1px solid var(--portfolio-btn-border-color);
 }
 
 .portfolio-btn:hover,
@@ -354,6 +359,7 @@ padding: 100px 0;
 
         color: #FFFFFF;
         background-color: #404BBF;
+        border: 1px solid transparent;
 }
 .portfolio-btn {
         cursor: pointer;
@@ -374,7 +380,7 @@ padding: 100px 0;
         display: flex;
         flex-wrap: wrap;
         gap: 48px 24px;
-        padding-bottom: 120px;
+        
         
 }
 
@@ -385,7 +391,7 @@ padding: 100px 0;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--title-color);
-        margin: 32px 8px 16px
+        margin-bottom: 8px;
        
 }
 
@@ -401,4 +407,10 @@ padding: 100px 0;
 }
 .gallery-item {
         border: 1px solid #E7E9FC;
+        width: calc((100% - 48px) / 3);
+}
+.gallery-item-container {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
 }
